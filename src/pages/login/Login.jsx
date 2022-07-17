@@ -15,7 +15,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const userInfo = {
-    username: 'ahmet',
+    username: 'turgut',
   };
 
   const handleSubmit = (e) => {
@@ -27,7 +27,7 @@ const Login = () => {
     <LoginContainer>
       <FormContainer>
         <StyledImg src={mealSvg} />
-        <Header>{'<CW/>'}Recipe</Header>
+        <Header>{'<TRGTYLMZ/>'}Recipe</Header>
         <StyledForm onSubmit={handleSubmit}>
           <StyledInput type="text" placeholder="username" required />
           <StyledInput type="password" placeholder="password" required />
